@@ -1,0 +1,29 @@
+{
+    "name": "samik/mukundabazar.com",
+    "authors": [
+        {
+            "name": "Samik Chattopadhyay",
+            "email": "samikchattopadhyay@gmail.com"
+        }
+    ],
+    "require": {
+        "nette/database": "^2.4",
+        "tracy/tracy": "^2.5",
+        "pecee/simple-router": "4.2.0.3",
+        "jenssegers/blade": "^1.1",
+        "aura/session": "^2.1",
+        "stefangabos/zebra_mptt": "^2.3"
+    },
+    "autoload": {
+     	
+     	"classmap": [
+ 
+           "lib",
+           "admin/models",
+           "admin/views",
+           "admin/controllers",
+           "admin/middlewares"
+ 
+       ]
+	}
+}

@@ -1,0 +1,11 @@
+/*
+Template Name: Admin Template
+Author: Niravjoshi / Wrappixel
+File: scss
+*/
+/*******************************/
+/*******************************/
+
+.select2-is-invalid {
+    border: 1px #DA542E solid !important;
+}
